@@ -1,0 +1,68 @@
+h1{
+    color:brown
+}
+.header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-between;
+    border: solid;
+    margin: 40px;
+}
+
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: centre;
+}
+
+body{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0,0,0);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 150px;
+}
+
+h3{
+    text-align: justify;
+    color: rgb(0,0,0);
+    font-family: cursive;
+}
+
+
+.menu a{
+   margin-left: 10px;
+   color:black;
+}
+
+.menu:hover a{
+    color:red;
+}
+
+.item{
+    position:relative;
+}
+
+.item h1{
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.item:hover h1{
+    opacity:1;
+}
